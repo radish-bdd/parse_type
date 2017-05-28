@@ -83,10 +83,12 @@ if USE_PYTEST_RUNNER:
 # SETUP:
 # -----------------------------------------------------------------------------
 setup(
-    name = "parse_type",
-    version = "0.3.5.dev0",
+    name = "radish-parse_type",
+    version = "0.3.5",
     author = "Jens Engel",
     author_email = "jens_engel@nowhere.xxx",
+    maintainer='Timo Furrer',
+    maintainer_email='tuxtimo@gmail.com',
     url = "https://github.com/jenisys/parse_type",
     download_url= "http://pypi.python.org/pypi/parse_type",
     description = "Simplifies to build parse types based on the parse module",
