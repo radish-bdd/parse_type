@@ -1,0 +1,18 @@
+Source: radish-parse-type
+Maintainer: Timo Furrer <tuxtimo@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python,
+ python-all (>= 2.7.3), python-setuptools,
+ python3-all, python3-setuptools
+Standards-Version: 3.9.1
+
+Package: python-radish-parse-type
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+Description: parse_type extends the parse module (opposite of string.format())
+
+Package: python3-radish-parse-type
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Description: parse_type extends the parse module (opposite of string.format())
